@@ -328,7 +328,7 @@ class UserInstance(InstanceResource):
             'date_created': deserialize.iso8601_datetime(payload['date_created']),
             'date_updated': deserialize.iso8601_datetime(payload['date_updated']),
             'url': payload['url'],
-            'links': payload['links'],
+            #'links': payload['links'],
         }
         
         # Context
