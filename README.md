@@ -1,3 +1,18 @@
+# twilio-release-6x-patch
+Add a patch in order to fix current 6x release candidate.
+
+## Install
+
+```bash
+pip install -e git://github.com/quippp/twilio-python.git@release-6x-patch-1#egg=twilio
+```
+
+or add this in requirement.txt
+
+```txt
+-e git://github.com/quippp/twilio-python.git@release-6x-patch-1#egg=twilio
+```
+
 # twilio-python
 
 [![Build Status](https://secure.travis-ci.org/twilio/twilio-python.png?branch=master)](http://travis-ci.org/twilio/twilio-python)
