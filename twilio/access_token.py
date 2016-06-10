@@ -87,7 +87,7 @@ class AccessToken(object):
         if self.nbf is not None:
             payload['nbf'] = self.nbf
 
-        return jwt.encode(payload, self.secret, #headers=headers,
+        return jwt.encode(payload, self.secret, headers=headers,
                           algorithm=algorithm)
 
     def __str__(self):
